@@ -13,7 +13,7 @@ return userAnswer;
 const feedbackElement=document.getElementById('feedback');
 
 //Compare users answer if correct or wrong
-if(userAnswer===correctAnswer){
+if (userAnswer === correctAnswer){
     feedbackElement.textContent ="Correct! Well done.";
     feedbackElement.style.color = "green";
 }else{
